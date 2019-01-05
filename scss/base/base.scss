@@ -1,0 +1,8 @@
+@import '../module/private.scss';
+@import '../module/variable.scss';
+@import '../module/mixins.scss';
+@import '../module/functions.scss';
+
+.main{
+    width: $size01;
+}
