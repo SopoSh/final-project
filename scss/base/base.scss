@@ -4,5 +4,31 @@
 @import '../module/functions.scss';
 
 .main{
-    width: $size01;
+   @extend %container;
+   .cover{
+      background-image: url('');
+      opacity: 0.7;
+      @extend %background;
+      height: 1000px;
+      .flex{
+         @extend %flex-element;
+         ul{
+            @extend %flex-element;
+            text-transform: uppercase;
+            li{
+               margin-left: 10px;
+               li:first-child{
+                  margin-left: 0;
+            }
+         }
+     }
+   }
+  .line{
+      width: 112px;
+      height: 47px;
+      border-bottom: 1px solid blue;
+      position: absolute;
+   
+      }
+}
 }

@@ -1,0 +1,17 @@
+%flex-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+%background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: cover;
+}
