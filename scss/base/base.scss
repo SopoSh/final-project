@@ -3,6 +3,8 @@
 @import '../module/mixins.scss';
 @import '../module/functions.scss';
 
+
+//header
 .main{
    @extend %container;
    .cover{
@@ -16,6 +18,7 @@
             @extend %flex-element;
             text-transform: uppercase;
             li{
+               text-decoration: none;
                margin-left: 10px;
                li:first-child{
                   margin-left: 0;
@@ -27,8 +30,16 @@
       width: 112px;
       height: 47px;
       border-bottom: 1px solid blue;
-      position: absolute;
-   
-      }
+ }
+    .title{
+       text-transform: uppercase;
+      
+    }
 }
+}
+
+//section
+.core-flex{
+   @extend %flex-element;
+
 }

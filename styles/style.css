@@ -35,7 +35,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.main .cover .flex, .main .cover .flex ul {
+.main .cover .flex, .main .cover .flex ul, .core-flex {
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -51,17 +51,19 @@ table {
   background-attachment: cover; }
 
 .main .cover {
-  background-image: url("2.svg");
+  background-image: url("");
   opacity: 0.7;
   height: 1000px; }
   .main .cover .flex ul {
     text-transform: uppercase; }
     .main .cover .flex ul li {
+      text-decoration: none;
       margin-left: 10px; }
       .main .cover .flex ul li li:first-child {
         margin-left: 0; }
   .main .cover .line {
     width: 112px;
     height: 47px;
-    border-bottom: 1px solid blue;
-    position: absolute; }
+    border-bottom: 1px solid blue; }
+  .main .cover .title {
+    text-transform: uppercase; }
