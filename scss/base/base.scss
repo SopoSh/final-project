@@ -7,11 +7,14 @@
 //header
 .main{
    @extend %container;
-   .cover{
-      background-image: url('');
-      opacity: 0.7;
+     .cover{
+      background-image: url('../styles/img/dreams.bmp');
+      margin: 0 auto;
       @extend %background;
-      height: 1000px;
+      opacity: 0.7;
+      height: 600px;
+      
+     
       .flex{
          @extend %flex-element;
          ul{
@@ -20,6 +23,9 @@
             li{
                text-decoration: none;
                margin-left: 10px;
+               a{
+                  text-decoration: none;
+               }
                li:first-child{
                   margin-left: 0;
             }
@@ -30,16 +36,58 @@
       width: 112px;
       height: 47px;
       border-bottom: 1px solid blue;
+      margin-left: 500px;
+
+ }
+ .text{
+   margin-left: 400px;
  }
     .title{
+       margin-left: 400px;
        text-transform: uppercase;
+       margin-top: 300px;
       
     }
 }
-}
 
-//section
+
+//section1
+
+.middle{
+   margin-top: 50px;
+   margin-left: 550px;
+}
+.line{
+   width: 112px;
+   height: 47px;
+   border-bottom: 1px solid blue;
+   margin-left: 555px;
+
+}
 .core-flex{
    @extend %flex-element;
+   .logo{
+      margin-top: 60px;
+
+      img{
+         width: 60px;
+   }
+
+}
+}
+
+//section2
+.section2{
+   margin-top: 40px;
+   height: 445px;
+   background: gray;
+   .left{
+      float: right;
+      img{
+         width: 300px;
+      }
+   }
+
+}
 
 }

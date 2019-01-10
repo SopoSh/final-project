@@ -35,7 +35,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.main .cover .flex, .main .cover .flex ul, .core-flex {
+.main .cover .flex, .main .cover .flex ul, .main .core-flex {
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -51,19 +51,51 @@ table {
   background-attachment: cover; }
 
 .main .cover {
-  background-image: url("");
+  background-image: url("../styles/img/dreams.bmp");
+  margin: 0 auto;
   opacity: 0.7;
-  height: 1000px; }
+  height: 600px; }
   .main .cover .flex ul {
     text-transform: uppercase; }
     .main .cover .flex ul li {
       text-decoration: none;
       margin-left: 10px; }
+      .main .cover .flex ul li a {
+        text-decoration: none; }
       .main .cover .flex ul li li:first-child {
         margin-left: 0; }
   .main .cover .line {
     width: 112px;
     height: 47px;
-    border-bottom: 1px solid blue; }
+    border-bottom: 1px solid blue;
+    margin-left: 500px; }
+  .main .cover .text {
+    margin-left: 400px; }
   .main .cover .title {
-    text-transform: uppercase; }
+    margin-left: 400px;
+    text-transform: uppercase;
+    margin-top: 300px; }
+
+.main .middle {
+  margin-top: 50px;
+  margin-left: 550px; }
+
+.main .line {
+  width: 112px;
+  height: 47px;
+  border-bottom: 1px solid blue;
+  margin-left: 555px; }
+
+.main .core-flex .logo {
+  margin-top: 60px; }
+  .main .core-flex .logo img {
+    width: 60px; }
+
+.main .section2 {
+  margin-top: 40px;
+  height: 445px;
+  background: gray; }
+  .main .section2 .left {
+    float: right; }
+    .main .section2 .left img {
+      width: 300px; }
