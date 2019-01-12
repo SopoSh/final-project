@@ -35,67 +35,106 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.main .cover .flex, .main .cover .flex ul, .main .core-flex {
+body .main .cover .flex, body .main .cover .flex ul {
   display: flex;
   justify-content: space-between;
   align-items: center; }
 
-.main {
-  max-width: 1170px;
+body .main {
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto; }
 
-.main .cover {
+body .main .cover {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: cover; }
 
-.main .cover {
-  background-image: url("../styles/img/dreams.bmp");
-  margin: 0 auto;
-  opacity: 0.7;
-  height: 600px; }
-  .main .cover .flex ul {
-    text-transform: uppercase; }
-    .main .cover .flex ul li {
-      text-decoration: none;
-      margin-left: 10px; }
-      .main .cover .flex ul li a {
-        text-decoration: none; }
-      .main .cover .flex ul li li:first-child {
-        margin-left: 0; }
-  .main .cover .line {
-    width: 112px;
+body {
+  max-width: 1400px;
+  margin-top: -12px; }
+  body .main .cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../styles/img/dreams.bmp");
+    margin: 0 auto;
+    opacity: 75%;
+    height: 645px; }
+    body .main .cover .flex {
+      padding-top: 35px;
+      padding-bottom: 161px; }
+      body .main .cover .flex .dreams {
+        margin-left: 156px;
+        font-size: 36px;
+        color: #ffffff; }
+      body .main .cover .flex ul {
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-right: 135px; }
+        body .main .cover .flex ul li {
+          text-decoration: none;
+          margin-left: 59px; }
+          body .main .cover .flex ul li a {
+            text-decoration: none;
+            color: #ffffff; }
+          body .main .cover .flex ul li li:first-child {
+            margin-left: 0; }
+          body .main .cover .flex ul li li:last-child {
+            margin-right: 135px; }
+    body .main .cover .line {
+      width: 110px;
+      height: 47px;
+      border-bottom: 1px solid #35C2F8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 53px; }
+    body .main .cover .text {
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff; }
+    body .main .cover .title h3 {
+      text-transform: uppercase;
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff; }
+  body .main .middle {
+    margin-top: 49px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  body .main .coreservices .line {
+    width: 110px;
     height: 47px;
-    border-bottom: 1px solid blue;
-    margin-left: 500px; }
-  .main .cover .text {
-    margin-left: 400px; }
-  .main .cover .title {
-    margin-left: 400px;
-    text-transform: uppercase;
-    margin-top: 300px; }
-
-.main .middle {
-  margin-top: 50px;
-  margin-left: 550px; }
-
-.main .line {
-  width: 112px;
-  height: 47px;
-  border-bottom: 1px solid blue;
-  margin-left: 555px; }
-
-.main .core-flex .logo {
-  margin-top: 60px; }
-  .main .core-flex .logo img {
-    width: 60px; }
-
-.main .section2 {
-  margin-top: 40px;
-  height: 445px;
-  background: gray; }
-  .main .section2 .left {
-    float: right; }
-    .main .section2 .left img {
-      width: 300px; }
+    border-bottom: 1px solid #35C2F8;
+    margin-bottom: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 644px; }
+  body .main .core-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    body .main .core-flex .logo img {
+      width: 60px;
+      padding-bottom: 35px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    body .main .core-flex .logo h3 {
+      margin-bottom: 15px;
+      text-align: center; }
+    body .main .core-flex .logo p {
+      text-align: center; }
+  body .main .section2 {
+    margin-top: 81px;
+    height: 618px;
+    background: #f7f7f7; }
+    body .main .section2 .left {
+      float: right; }
+      body .main .section2 .left img {
+        width: 419px; }
