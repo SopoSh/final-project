@@ -9,3 +9,8 @@
     transition-property:$property ;
     transition-duration:$time;
 }
+
+@font-face {
+    font-family: Font;
+    src: url("../styles/fonts/Bello Script/Bello Script.ttf");
+  }

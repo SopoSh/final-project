@@ -50,6 +50,13 @@ body .main .cover {
   background-position: center;
   background-attachment: cover; }
 
+@font-face {
+  font-family: Font;
+  src: url("../styles/fonts/Bello Script/Bello Script.ttf"); }
+
+html {
+  scroll-behavior: smooth; }
+
 body {
   max-width: 1400px;
   margin-top: -12px; }
@@ -64,11 +71,14 @@ body {
       body .main .cover .flex .dreams {
         margin-left: 156px;
         font-size: 36px;
-        color: #ffffff; }
+        color: #ffffff;
+        font-family: Font; }
       body .main .cover .flex ul {
         text-transform: uppercase;
         font-size: 14px;
-        margin-right: 135px; }
+        margin-right: 135px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 10px; }
         body .main .cover .flex ul li {
           text-decoration: none;
           margin-left: 59px; }
@@ -81,40 +91,53 @@ body {
             margin-right: 135px; }
     body .main .cover .line {
       width: 110px;
-      height: 47px;
+      height: 1px;
       border-bottom: 1px solid #35C2F8;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 53px; }
+      margin-bottom: 53px;
+      display: block;
+      margin-top: 39px;
+      margin-bottom: 38px;
+      margin-left: auto;
+      margin-right: auto; }
     body .main .cover .text {
       font-size: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #ffffff; }
+      color: #ffffff;
+      font-family: 'Noto Sans', sans-serif;
+      line-height: 20px;
+      margin-top: 12px; }
     body .main .cover .title h3 {
       text-transform: uppercase;
       font-size: 50px;
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #ffffff; }
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 40px;
+      letter-spacing: -4px; }
+    body .main .cover .bottom {
+      margin-top: 28px; }
   body .main .middle {
     margin-top: 49px;
     font-size: 50px;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 27px;
+    letter-spacing: -6px; }
   body .main .coreservices .line {
     width: 110px;
-    height: 47px;
+    height: 1px;
     border-bottom: 1px solid #35C2F8;
-    margin-bottom: 63px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 644px; }
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto; }
   body .main .core-flex {
     display: flex;
     justify-content: space-around;
@@ -127,9 +150,13 @@ body {
       margin-right: auto; }
     body .main .core-flex .logo h3 {
       margin-bottom: 15px;
-      text-align: center; }
+      text-align: center;
+      font-family: 'Noto Sans', sans-serif; }
     body .main .core-flex .logo p {
-      text-align: center; }
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      color: #888888;
+      letter-spacing: -1px; }
   body .main .section2 {
     margin-top: 81px;
     height: 618px;
