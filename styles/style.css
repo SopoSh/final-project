@@ -35,7 +35,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body .main .cover .flex, body .main .cover .flex ul {
+body .main .cover .flex, body .main .cover .flex ul, body .main .section2 .left .two, body .main .section2 .left .two .icon {
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -48,7 +48,7 @@ body .main {
 body .main .cover {
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: cover; }
+  background-attachment: fixed; }
 
 @font-face {
   font-family: Font;
@@ -61,7 +61,7 @@ body {
   max-width: 1400px;
   margin-top: -12px; }
   body .main .cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../styles/img/dreams.bmp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../styles/img/dreams.bmp");
     margin: 0 auto;
     opacity: 75%;
     height: 645px; }
@@ -161,7 +161,11 @@ body {
     margin-top: 81px;
     height: 618px;
     background: #f7f7f7; }
-    body .main .section2 .left {
+    body .main .section2 .right {
       float: right; }
-      body .main .section2 .left img {
+      body .main .section2 .right img {
         width: 419px; }
+    body .main .section2 .left {
+      float: left;
+      margin-left: 155px;
+      margin-top: 100px; }

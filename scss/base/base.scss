@@ -13,11 +13,12 @@ body{
 .main{
    @extend %container;
      .cover{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../styles/img/dreams.bmp');
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../styles/img/dreams.bmp');
       margin: 0 auto;
       @extend %background;
       opacity: 75%;
       height: 645px;  
+   
      
       .flex{
          @extend %flex-element;
@@ -150,10 +151,21 @@ p{
    margin-top: 81px;
    height: 618px;
    background: #f7f7f7;
-   .left{
+   .right{
       float: right;
       img{
          width: 419px;
+      }
+   }
+   .left{
+      float: left;
+      margin-left: 155px;
+      margin-top: 100px;
+      .two{
+         @extend %flex-element;
+         .icon{
+         @extend %flex-element;
+         }
       }
    }
 
