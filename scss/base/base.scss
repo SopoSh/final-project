@@ -5,6 +5,7 @@
 
 html{
    @extend %smooth;
+   
 }
 //header
 body{
@@ -136,8 +137,9 @@ p{
 //section2
 .section2{
    margin-top: 81px;
-   height: 618px;
+   
    background: $color4;
+
    .right{
       float: right;
       img{
@@ -203,9 +205,56 @@ p{
   text-decoration: none;
   outline: none;
   border-radius: 41px;
+  font-family: $font2;
+  font-size: 16px;
+  font-weight:bold;
+  margin-bottom: 89px;
 
    }
    }
+//section3
+.section3{
+margin-top: 120px;
+overflow: hidden;
+display: flex;
+justify-content: space-between;
+.amazing-portfolio{
+   margin-left: 50px;
+   font-family: $font2;
+   font-size: 40px;
+   font-weight: bold;
 }
-
-}
+.section3left{
+   background-repeat: no-repeat;
+      background-image: url(../styles/img/users-icon.png);
+      position: absolute;
+      left: 50px;
+      float: left;
+      margin-top: 110px;
+      p{
+         font-family: $font2;
+         font-size: 14px;
+         color: #9b9b9b;
+      }
+      h3{
+         font-family: $font2;
+         font-size: 16px;
+         font-weight: bold;
+      }
+     
+     
+      // top: 1923px;
+      // width: 584px;
+      // height: 423px;
+      // z-index: 155;
+    }
+    .section3right{
+       float: right;
+       }
+   }
+    
+    
+//section4
+ 
+   }
+   }
