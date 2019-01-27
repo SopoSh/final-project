@@ -216,8 +216,7 @@ p{
 .section3{
 margin-top: 120px;
 overflow: hidden;
-display: flex;
-justify-content: space-between;
+
 .amazing-portfolio{
    margin-left: 50px;
    font-family: $font2;
@@ -229,8 +228,17 @@ justify-content: space-between;
       background-image: url(../styles/img/users-icon.png);
       position: absolute;
       left: 50px;
-      float: left;
       margin-top: 110px;
+      .section3icon{
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+         img{
+            height: 30px;
+            margin-right: 16px;
+         }
+      }
+      
       p{
          font-family: $font2;
          font-size: 14px;
@@ -240,8 +248,8 @@ justify-content: space-between;
          font-family: $font2;
          font-size: 16px;
          font-weight: bold;
-      }
-     
+
+   }
      
       // top: 1923px;
       // width: 584px;
@@ -250,11 +258,108 @@ justify-content: space-between;
     }
     .section3right{
        float: right;
-       }
-   }
+    }
+ }
     
     
 //section4
- 
+ .section4{
+    margin-top: 80px;
+    .three-images{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       overflow: hidden;
+       img{
+          width: 100/3%;
+       }
+    }
+ }
+   //section5
+   .section5{
+      margin-top:100px;
+      h3{
+         text-align: center;
+         font-family: $font2;
+         font-weight: bold;
+         font-size: 40px;
+         margin-bottom: 27px;
+         color: #222222;
+      }
+      .line{
+         @extend %line;
+         margin-bottom: 83px;
+      }
+   }
+
+   //section6
+   .section6{
+      background: $color4;
+      height: inherit;
+      padding-top: 100px;
+      h3{
+         text-align: center;
+         font-family: $font2;
+         font-weight: bold;
+         font-size: 40px;
+         margin-bottom: 34px;
+         color: #222222;
+      }
+      .line{
+         @extend %line;
+         margin-bottom: 80px;
+      }
+      .dots{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-right:310px;
+         margin-left:310px;
+   
+      .dot {
+         height: 220px;
+         width: 219px;
+         background-color: black;
+         border-radius: 50%;
+         display: inline-block;
+       }
+   }
+   .professions{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 350px;
+       margin-right: 364px;
+       margin-bottom: 70px;
+      //  .social-media:nth-child(3){
+      //     margin-left:22px;
+      //   }
+      .social-media3{
+         margin-left:10px;
+      }
+      h3{
+         font-size: 14px;
+         font-family: $font2;
+         color: black;
+         text-align: center;
+      }
+      p{
+         text-align: center;
+         color: #9b9b9b;
+         font-size: 12px;
+         font-family: $font3;
+         margin-top: -28px;
+      }
+   }
+   .grey-text{
+         text-align: center;
+         color: #9b9b9b;
+         font-family: $font3;
+         font-size: 14px;
+         padding-bottom: 105px;
    }
    }
+
+   }
+   }
+   
