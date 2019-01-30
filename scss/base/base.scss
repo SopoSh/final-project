@@ -144,6 +144,7 @@ p{
       float: right;
       img{
          width: 419px;
+         height: 766px;
       }
    }
    .left{
@@ -359,7 +360,32 @@ overflow: hidden;
          padding-bottom: 105px;
    }
    }
-
+//section7
+.section7{
+   background-color: #111111;
+   height: 640px;
+   margin-top: -20px;
+   padding-top: 100px;
+   padding-left: 227px;
+   .lastleft{
+      float: left;
+      .contact{
+         
+         i{
+            display: inline-block;
+         }
+         p{
+            display: inline-block;
+         }
+      }
+   }
+form{
+   float: right;
+   width: 458px;
+   overflow: hidden;
+   margin-right: 227px;
+}
+}
    }
    }
    

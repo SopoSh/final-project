@@ -163,7 +163,8 @@ body {
     body .main .section2 .right {
       float: right; }
       body .main .section2 .right img {
-        width: 419px; }
+        width: 419px;
+        height: 766px; }
     body .main .section2 .left {
       float: left;
       margin-left: 155px;
@@ -315,3 +316,20 @@ body {
       font-family: "Noto Sans", sans-serif;
       font-size: 14px;
       padding-bottom: 105px; }
+  body .main .section7 {
+    background-color: #111111;
+    height: 640px;
+    margin-top: -20px;
+    padding-top: 100px;
+    padding-left: 227px; }
+    body .main .section7 .lastleft {
+      float: left; }
+      body .main .section7 .lastleft .contact i {
+        display: inline-block; }
+      body .main .section7 .lastleft .contact p {
+        display: inline-block; }
+    body .main .section7 form {
+      float: right;
+      width: 458px;
+      overflow: hidden;
+      margin-right: 227px; }
