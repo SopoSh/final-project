@@ -324,12 +324,59 @@ body {
     padding-left: 227px; }
     body .main .section7 .lastleft {
       float: left; }
-      body .main .section7 .lastleft .contact i {
-        display: inline-block; }
-      body .main .section7 .lastleft .contact p {
-        display: inline-block; }
-    body .main .section7 form {
-      float: right;
-      width: 458px;
-      overflow: hidden;
-      margin-right: 227px; }
+      body .main .section7 .lastleft h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        color: white; }
+      body .main .section7 .lastleft p {
+        font-family: "Noto Sans", sans-serif;
+        font-size: 12px;
+        color: white; }
+      body .main .section7 .lastleft .lasttwo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        body .main .section7 .lastleft .lasttwo .contact {
+          margin-bottom: 12px; }
+          body .main .section7 .lastleft .lasttwo .contact i {
+            display: inline-block;
+            color: white;
+            width: 38px; }
+          body .main .section7 .lastleft .lasttwo .contact p {
+            display: inline-block;
+            font-size: 14px;
+            font-family: "Noto Sans", sans-serif; }
+      body .main .section7 .lastleft form {
+        float: right;
+        width: 438px;
+        overflow: hidden;
+        margin-right: 227px; }
+    body .main .section7 .d-inline-block button {
+      margin-left: 383px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      border-radius: 41px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 21px;
+      background-color: #44cbff;
+      margin-top: 21px; }
+  body .main .line {
+    width: 1000px;
+    height: 1px;
+    border-bottom: 1.5px solid white;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    display: block;
+    margin-left: -5px;
+    margin-right: auto; }
+  body .main .sentence {
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: -130px;
+    display: block; }
