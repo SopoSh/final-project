@@ -265,6 +265,63 @@ body {
       color: #222222; }
     body .main .section5 .line {
       margin-bottom: 83px; }
+    body .main .section5 .circles {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 105px; }
+      body .main .section5 .circles .circle {
+        position: relative;
+        border: 8px solid #f1f1f1;
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin-top: 98px;
+        background-color: #f1f1f1;
+        z-index: 2; }
+        body .main .section5 .circles .circle p {
+          color: white;
+          font-family: "Montserrat", sans-serif;
+          font-size: 16px;
+          margin-top: 25%; }
+      body .main .section5 .circles .circle:before {
+        position: absolute;
+        border: 2px solid #f1f1f1;
+        width: 0;
+        height: 110px;
+        display: block;
+        content: '';
+        left: 50%;
+        z-index: 1;
+        top: -110px;
+        margin-left: -1px; }
+      body .main .section5 .circles .circle:first-child:before {
+        display: none; }
+      body .main .section5 .circles .circle:first-child {
+        margin-top: 0; }
+    body .main .section5 .circle:last-child {
+      background-color: #35C2F8; }
+    body .main .section5 .circletext h3 {
+      font-size: 14px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold; }
+    body .main .section5 .circletext p {
+      color: #929292;
+      font-family: "Noto Sans", sans-serif;
+      font-size: 14px; }
+    body .main .section5 .circletext1 {
+      margin-bottom: 135px;
+      text-align: right; }
+    body .main .section5 .circletext2 {
+      margin-bottom: 140px;
+      text-align: left; }
+    body .main .section5 .circletext3 {
+      margin-bottom: 140px;
+      text-align: right; }
+    body .main .section5 .circletext4 {
+      text-align: left; }
   body .main .section6 {
     background: #f7f7f7;
     height: inherit;
