@@ -28,10 +28,10 @@
                     <ul>
                         <li> <a href="#" >home</a> </li>
                         <li> <a href="#coreservices" >services</a> </li>
-                        <li> <a href="#" >portfolio</a> </li>
-                        <li> <a href="#" >about</a> </li>
-                        <li> <a href="#" >team</a> </li>
-                        <li> <a href="#" >contact</a> </li>
+                        <li> <a href="#amazingportfolio" >portfolio</a> </li>
+                        <li> <a href="#aboutus" >about</a> </li>
+                        <li> <a href="#awesometeam" >team</a> </li>
+                        <li> <a href="#contactus" >contact</a> </li>
                     </ul>
                 </nav>
             </div>
@@ -153,11 +153,21 @@
     
                 </div>
             </div>
-            <button type="button" class="btn btn-outline-secondary">LEARN MORE</button> 
+            <button type="button" id="demo" class="btn btn-outline-secondary">LEARN MORE</button> 
+
+            
+            <script>
+                document.getElementById("demo").onclick = function() {myFunction()};
+                
+                function myFunction() {
+                  document.getElementById("demo").innerHTML = "LEARN MORE...";
+                }
+                </script>
+
     </section>
 
     <section class="section3">
-            <h3 class="amazing-portfolio">
+            <h3 class="amazing-portfolio" id="amazingportfolio">
                     AMAZING PORTFOLIO
                 </h3>
         <div class="section3left">
@@ -227,7 +237,7 @@
             </div>
         </section>
 
-        <section class="section5">
+        <section class="section5" id="aboutus">
             <h3> ABOUT US </h3>
             <div class="line"> </div>
 <div class="circles">
@@ -299,7 +309,7 @@
 </div> 
         </section>
 
-        <section class="section6">
+        <section class="section6" id="awesometeam">
         <h3> AWESOME TEAM </h3>
         <div class="line"> </div>
 
@@ -308,16 +318,16 @@
         <span class="dot"></span>
         <span class="dot"></span>
         </div>
-        <div class="professions">
+        <div class="professions" style="margin-top: 10px;">
             <div class="Name">
             <h3>
                 Jimmy Latterman
             </h3>
             <p>Marketer</p>
             <div class="social-media">
-                <img src="styles/img/social1.jpg" alt="">
-                <img src="styles/img/social2.jpg" alt="">
-                <img src="styles/img/social3.jpg" alt="">
+              <a href="https://twitter.com/" target="_blank"> <img src="styles/img/social1.jpg" alt=""> </a> 
+              <a href="https://facebook.com/" target="_blank"> <img src="styles/img/social2.jpg" alt=""> </a>
+              <a href="https://pinterest.com/" target="_blank"> <img src="styles/img/social3.jpg" alt=""> </a>
             </div>
             </div>
             <div class="Name">
@@ -326,9 +336,9 @@
                     </h3>
                     <p>Coder</p>
                     <div class="social-media">
-                        <img src="styles/img/social1.jpg" alt="">
-                        <img src="styles/img/social2.jpg" alt="">
-                        <img src="styles/img/social5.jpg" alt="">
+                        <a href="https://twitter.com/" target="_blank"><img src="styles/img/social1.jpg" alt=""> </a>
+                        <a href="https://facebook.com/" target="_blank"><img src="styles/img/social2.jpg" alt=""> </a>
+                        <a href="https://google.com/" target="_blank"><img src="styles/img/social5.jpg" alt=""> </a>
                     </div>
                     </div>
                     <div class="Name">
@@ -337,8 +347,8 @@
                             </h3>
                             <p>Graphic Designer</p>
                             <div class="social-media3">
-                                <img src="styles/img/social2.jpg" alt="">
-                                <img src="styles/img/social3.jpg" alt="">
+                                <a href="https://facebook.com" target="_blank"><img src="styles/img/social2.jpg" alt=""></a>
+                                <a href="https://pinterest.com" target="_blank"><img src="styles/img/social3.jpg" alt=""></a>
                             </div>
                             </div>
         </div>
@@ -348,7 +358,7 @@
         </p>
         
     </section>
-    <section class="section7">
+    <section class="section7" id="contactus">
         <div class="lastleft">
         <h3>
             CONTACT US
@@ -420,9 +430,9 @@
                 <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Your Message*" style="height:167px">
               </div>
             </div>
-            <span class="d-inline-block" data-toggle="popover" data-content="Disabled popover">
-                    <button class="btn btn-primary" style="pointer-events: none;" type="button" disabled>SEND MESSAGE</button>
-                  </span>
+            <span class="d-inline-block" data-toggle="popover" >
+                 <button class="btn btn-primary" style="pointer-events: none;" type="button">SEND MESSAGE</button>
+                </span>
           </form>
           <div class="line">
           </div>

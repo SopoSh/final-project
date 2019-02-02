@@ -72,6 +72,22 @@ body .main .cover .line, body .main .coreservices .line, body .main .section5 .l
   font-family: Font;
   src: url("../styles/fonts/Bello Script/Bello Script.ttf"); }
 
+@keyframes slideup {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  50% {
+    color: grey; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
 body {
   max-width: 1400px;
   margin-top: -12px; }
@@ -112,7 +128,9 @@ body {
     color: #ffffff;
     font-family: "Noto Sans", sans-serif;
     line-height: 20px;
-    margin-top: 12px; }
+    margin-top: 12px;
+    animation-duration: 2s;
+    animation-name: typing; }
   body .main .cover .title h3 {
     text-transform: uppercase;
     font-size: 50px;
@@ -123,7 +141,9 @@ body {
     font-family: "Montserrat", sans-serif;
     line-height: 40px;
     letter-spacing: -4px;
-    font-weight: bold; }
+    font-weight: bold;
+    animation-duration: 2s;
+    animation-name: slideup; }
   body .main .cover .bottom {
     margin-top: 28px; }
   body .main .middle {
@@ -213,7 +233,15 @@ body {
       font-family: "Montserrat", sans-serif;
       font-size: 16px;
       font-weight: bold;
-      margin-bottom: 89px; }
+      margin-bottom: 89px;
+      transition-duration: 1s; }
+      body .main .section2 button button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px); }
+    body .main .section2 button:hover {
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      color: #35C2F8; }
   body .main .section3 {
     margin-top: 120px;
     overflow: hidden; }
@@ -234,7 +262,8 @@ body {
         align-items: center; }
         body .main .section3 .section3left .section3icon img {
           height: 30px;
-          margin-right: 16px; }
+          margin-right: 16px;
+          margin-top: -29px; }
       body .main .section3 .section3left p {
         font-family: "Montserrat", sans-serif;
         font-size: 14px;
@@ -242,7 +271,8 @@ body {
       body .main .section3 .section3left h3 {
         font-family: "Montserrat", sans-serif;
         font-size: 16px;
-        font-weight: bold; }
+        font-weight: bold;
+        padding-top: 20px; }
     body .main .section3 .section3right {
       float: right; }
   body .main .section4 {
@@ -303,6 +333,8 @@ body {
         margin-top: 0; }
     body .main .section5 .circle:last-child {
       background-color: #35C2F8; }
+    body .main .section5 .circle img:hover {
+      transform: scale(1.5); }
     body .main .section5 .circletext h3 {
       font-size: 14px;
       font-family: "Montserrat", sans-serif;
@@ -421,19 +453,19 @@ body {
       padding: 21px;
       background-color: #44cbff;
       margin-top: 21px; }
-  body .main .line {
-    width: 1000px;
-    height: 1px;
-    border-bottom: 1.5px solid white;
-    margin-bottom: 30px;
-    margin-top: 60px;
-    display: block;
-    margin-left: -5px;
-    margin-right: auto; }
-  body .main .sentence {
-    text-align: center;
-    font-family: "Noto Sans", sans-serif;
-    font-size: 12px;
-    color: white;
-    margin-left: -130px;
-    display: block; }
+    body .main .section7 .line {
+      width: 1000px;
+      height: 1px;
+      border-bottom: 1.5px solid white;
+      margin-bottom: 30px;
+      margin-top: 60px;
+      display: block;
+      margin-left: -5px;
+      margin-right: auto; }
+    body .main .section7 .sentence {
+      text-align: center;
+      font-family: "Noto Sans", sans-serif;
+      font-size: 12px;
+      color: white;
+      margin-left: -130px;
+      display: block; }

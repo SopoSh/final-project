@@ -67,6 +67,8 @@ body{
        font-family: $font3;
        line-height: my-calculation-function($size09, $size09);
        margin-top: 12px;
+       animation-duration: 2s;
+       animation-name: typing;
  }
     .title h3{
        text-transform: uppercase;
@@ -79,6 +81,8 @@ body{
       line-height: 40px;
       letter-spacing: -4px;
       font-weight: bold;
+      animation-duration: 2s;
+      animation-name: slideup;
         }
         .bottom{
            margin-top: 28px;
@@ -210,7 +214,16 @@ p{
   font-size: 16px;
   font-weight:bold;
   margin-bottom: 89px;
-
+  transition-duration: 1s;
+  button:active {
+   background-color: #3e8e41;
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+ }
+   }
+   button:hover{
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      color: #35C2F8;
    }
    }
 //section3
@@ -237,6 +250,7 @@ overflow: hidden;
          img{
             height: 30px;
             margin-right: 16px;
+            margin-top: -29px;;
          }
       }
       
@@ -249,6 +263,7 @@ overflow: hidden;
          font-family: $font2;
          font-size: 16px;
          font-weight: bold;
+         padding-top: 20px;
 
    }
      
@@ -337,6 +352,9 @@ overflow: hidden;
       background-color: #35C2F8;
    }
 
+   .circle img:hover{
+      transform: scale(1.5);
+   }
 
    .circletext{
       h3{
@@ -495,8 +513,7 @@ form{
   padding: 21px;
   background-color: #44cbff;
   margin-top: 21px;
-   }
-}
+ }
 }
 .line{
    width: 1000px;
@@ -516,6 +533,7 @@ form{
    margin-left: -130px;
    display: block;
 }
-   }
-   }
+}
+}
+}
    
