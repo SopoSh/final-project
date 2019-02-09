@@ -467,11 +467,7 @@ body {
       align-items: center;
       overflow: hidden; }
       body .main .section4 .three-images img {
-        width: 100/3%;
-        -webkit-animation-name: jackInTheBox;
-        animation-name: jackInTheBox;
-        -webkit-animation-duration: 3s;
-        animation-duration: 3s; }
+        width: 100/3%; }
   body .main .section5 {
     margin-top: 100px; }
     body .main .section5 h3 {
