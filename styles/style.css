@@ -728,3 +728,46 @@ body {
       padding-left: 120px; }
       body .main .section7 .line {
         width: 890px; } }
+  @media only screen and (max-width: 1070px) {
+    body .main .section3right {
+      width: 450px; }
+    body .main .flex {
+      margin-left: -85px; }
+    body .main .section7 .line {
+      width: 780px; }
+    body .main .section6 .professions {
+      margin-right: 323px;
+      margin-left: 315px; } }
+  @media only screen and (max-width: 1038px) {
+    body .main .section2 {
+      height: 780px; }
+      body .main .section2 .left .two .icon p {
+        font-size: 10px; } }
+  @media only screen and (max-width: 965px) {
+    body .main .section3right {
+      width: 350px; }
+    body .main #dontshow {
+      display: none; } }
+  @media only screen and (max-width: 920px) {
+    body .main .flex {
+      margin-left: -120px; }
+    body .main .coreservices .core-flex .logo p {
+      font-size: 13px; }
+    body .main #move {
+      margin-left: 10px; } }
+  @media only screen and (max-width: 893px) {
+    body .main .Name img {
+      display: none; }
+    body .main .section5 .circles .circletext p {
+      font-size: 12px; } }
+  @media only screen and (max-width: 879px) {
+    body .main .section2 .left .expertise h3 {
+      font-size: 24px; }
+    body .main .section2 .left .expertise p {
+      font-size: 14px; }
+    body .main .section2 .right {
+      width: 170px; }
+    body .main .cover .flex ul {
+      font-size: 12px; }
+    body .main .section3right {
+      width: 250px; } }

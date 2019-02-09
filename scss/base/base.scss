@@ -611,7 +611,116 @@ form{
 }
 
 
+@media only screen and (max-width: 1070px) {
+   .section3right{
+      width: 450px;
+   }
+   .flex{
+      margin-left: -85px;
+   }
+   .section7{
+      .line{
+         width: 780px;
+      }
+   }
 
+.section6{
+   .professions{
+      margin-right: 323px;
+      margin-left: 315px;
+   }
+}
+}
+
+@media only screen and (max-width: 1038px) {
+   .section2{
+      height: 780px;
+      .left{
+      .two{
+         .icon{
+            p{
+              font-size: 10px;
+            }
+         }
+      }
+      }
+   }
+}
+
+@media only screen and (max-width: 965px){
+   .section3right{
+      width: 350px;
+   }
+   #dontshow{
+      display: none;
+   }
+}
+@media only screen and (max-width: 920px){
+   .flex{
+      margin-left: -120px;
+   }
+   .coreservices{
+      .core-flex{
+         .logo{
+            p{
+               font-size: 13px;
+            }
+         }
+      }
+   }
+   #move{
+      margin-left: 10px;
+   }
+}
+
+@media only screen and (max-width: 893px){
+   .Name{
+      img{
+         display: none;
+      }
+   }
+   .section5{
+      .circles{
+         .circletext{
+            p{
+               font-size: 12px;
+            } 
+         }
+      }
+   }
+
+
+}
+
+@media only screen and (max-width: 879px){
+   .section2{
+      .left{
+         .expertise{
+            h3{
+               font-size: 24px;
+            }
+            p{
+               font-size: 14px;
+            }
+         }
+      }
+      .right{
+         width: 170px;
+      }
+   }
+.cover{
+   .flex{
+      ul{
+         font-size: 12px;
+      }
+   }
+}
+.section3right{
+   width: 250px;
+}
+}
+
+//838
 
 
 }
