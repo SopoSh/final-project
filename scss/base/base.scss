@@ -8,7 +8,8 @@ html{
 }
 //header
 body{
-   max-width: $size02;
+
+   //max-width: $size02;
    margin-top: $size07;
 .main{
    @extend %container;
@@ -864,6 +865,7 @@ form{
          }
       }
    }
+   
 }
 
 @media only screen and(max-width: 710px){
@@ -952,6 +954,100 @@ form{
 }
 
 //600
+@media only screen and(max-width: 580px){
+   .cover{
+      .flex{
+         nav{
+            ul{
+               li{
+                  margin-left: 10px;
+               }
+            }
+         }
+      }
+   }
+.section7{
+   height: inherit;
+   .lastleft{
+      float: none;
+      .lastflex{
+         margin-right: 200px;
+      }
+   }
+   
+}
+
+.cover{
+   .title{
+      h3{
+         font-size: 35px;
+      }
+   }
+}
+
+
+}
+
+@media only screen and(max-width: 550px){
+   .lastflex{
+      margin-right: 100px;
+   }
+   .d-inline-block{
+      margin-left: -150px;
+   }
+   .section5{
+      .circles{
+            transform: scale(0.8);
+      }
+   }
+
+
+.section7{
+   .lastleft{
+      .lastflex{
+         display: flex;
+         justify-content: space-between;
+         margin-right: 50px;
+         .lasttwo{
+            display: block;
+            .contact{
+               p{
+                  display: none;
+               }
+               i{
+                  transform: scale(1.8);
+               }
+            }
+         }
+      }
+   }
+}
+
+.cover{
+   .flex{
+         .dreams{
+         font-size: 25px;
+         
+         }
+      }
+   }
+
+.section6{
+   .dots{
+      margin-left: 100px;
+      margin-right: 100px;
+   }
+}
+.section3left{
+   background-size: 300px;
+   margin-top: 30px;
+}
+
+}
+
+
+
+
 
 }
 

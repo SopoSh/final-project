@@ -53,7 +53,6 @@ html {
   scroll-behavior: smooth; }
 
 body .main {
-  max-width: 1400px;
   width: 100%;
   margin: 0 auto; }
 
@@ -209,7 +208,6 @@ body .main .cover .line, body .main .coreservices .line, body .main .section5 .l
     transform: scale(1); } }
 
 body {
-  max-width: 1400px;
   margin-top: -12px; }
   body .main .cover .flex {
     padding-top: 35px;
@@ -865,3 +863,50 @@ body {
       margin-left: 18px; }
     body .main .section2 .left {
       margin-right: -213px; } }
+  @media only screen and (max-width: 580px) {
+    body .main .cover .flex nav ul li {
+      margin-left: 10px; }
+    body .main .section7 {
+      height: inherit; }
+      body .main .section7 .lastleft {
+        float: none; }
+        body .main .section7 .lastleft .lastflex {
+          margin-right: 200px; }
+    body .main .cover .title h3 {
+      font-size: 35px; } }
+  @media only screen and (max-width: 550px) {
+    body .main .lastflex {
+      margin-right: 100px; }
+    body .main .d-inline-block {
+      margin-left: -150px; }
+    body .main .section5 .circles {
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8); }
+    body .main .section7 .lastleft .lastflex {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-right: 50px; }
+      body .main .section7 .lastleft .lastflex .lasttwo {
+        display: block; }
+        body .main .section7 .lastleft .lastflex .lasttwo .contact p {
+          display: none; }
+        body .main .section7 .lastleft .lastflex .lasttwo .contact i {
+          -webkit-transform: scale(1.8);
+          -ms-transform: scale(1.8);
+          transform: scale(1.8); }
+    body .main .cover .flex .dreams {
+      font-size: 25px; }
+    body .main .section6 .dots {
+      margin-left: 100px;
+      margin-right: 100px; }
+    body .main .section3left {
+      -webkit-background-size: 300px 300px;
+      background-size: 300px;
+      margin-top: 30px; } }
