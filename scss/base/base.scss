@@ -1045,10 +1045,80 @@ form{
 
 }
 
+@media only screen and (max-width: 498px){
+   .section7{
+      form{
+         margin-left: -20px;
+      }
+   }
+   .section2{
+      button{
+         margin-left: 10px;
+         margin-top: 100px;
+      }
+      .left{
+         margin-right: -320px;
+         margin-left: 10px;
+      }
+      .right{
+         img{
+            width: 150px;
+         }
+      }
+   }
+   .cover{
+      .text{     
+         font-size: 16px; 
+         
+      }
+      .title{
+         margin-top: -110px;
+      }
+      .flex{
+         nav{
+            ul{
+               flex-direction: column;
+               li{
+                  margin-bottom: 20px;
+               }
+            }
+         }
+      }
+   }
+.section3{
+   .section3left{
+      margin-top: 10px;
+   }
+}
+.section5{
+   .circles{
+      margin-top: -100px;
+   }
+}
 
-
-
-
+}
+//
+@media only screen and(max-width: 400px){
+   .section3{
+      .section3left{
+         background: none;
+      }
+   }
+   .section2{
+      height: inherit;
+      .right{
+         img{
+            height: 500px;
+         }
+      }
+      button{
+         margin-top: 0;
+         margin-left: 0;
+         transform: scale(0.5)
+      }
+   }
+}
+//370
 }
 
 }

@@ -910,3 +910,43 @@ body {
       -webkit-background-size: 300px 300px;
       background-size: 300px;
       margin-top: 30px; } }
+  @media only screen and (max-width: 498px) {
+    body .main .section7 form {
+      margin-left: -20px; }
+    body .main .section2 button {
+      margin-left: 10px;
+      margin-top: 100px; }
+    body .main .section2 .left {
+      margin-right: -320px;
+      margin-left: 10px; }
+    body .main .section2 .right img {
+      width: 150px; }
+    body .main .cover .text {
+      font-size: 16px; }
+    body .main .cover .title {
+      margin-top: -110px; }
+    body .main .cover .flex nav ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      body .main .cover .flex nav ul li {
+        margin-bottom: 20px; }
+    body .main .section3 .section3left {
+      margin-top: 10px; }
+    body .main .section5 .circles {
+      margin-top: -100px; } }
+  @media only screen and (max-width: 400px) {
+    body .main .section3 .section3left {
+      background: none; }
+    body .main .section2 {
+      height: inherit; }
+      body .main .section2 .right img {
+        height: 500px; }
+      body .main .section2 button {
+        margin-top: 0;
+        margin-left: 0;
+        -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5); } }
