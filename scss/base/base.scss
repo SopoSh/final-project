@@ -720,9 +720,241 @@ form{
 }
 }
 
-//838
+@media only screen and (max-width: 838px){
+   .coreservices{
+      .core-flex{
+         h3{
+            font-size: 16px;
+         }
+      }
+   }
+.section6{
+   .professions{
+      h3{
+         font-size: 12px;
+      }
+   }
+}
+.section7{
+   .lastleft{
+      .lastflex{
+         .lasttwo{
+            .contact{
+               p{
+                  font-size: 12px;
+               }
+            }
+         }
+      }
+   }
+   }
+.section2{
+   button{
+      margin-top: 230px;
+   }
+   .right{
+      img{
+         float: right;
+         width: 180px;
+      }
+   }
+   .left{
+      .two{
+         display: block;
+         .icon{
+            margin-right: 258px;
+            img{
+               margin-top: -13px;
+            }
+            p{
+               display: none;
+            }
+         }
+      }
+   }
+}
+
+.cover{
+   .flex{
+      nav{
+         ul{
+            li{
+               margin-left: 45px;
+            }
+         }
+      }
+   }
+}
 
 
+.section5{
+   .circles{
+         .circletext1{
+            margin-left: 30px;
+      }
+      .circletext2{
+         margin-right: 30px;
+         margin-top: -40px;
+      }
+      .circletext3{
+         margin-left: 30px;
+         margin-top: -110px;
+      }
+      .circletext4{
+         margin-right: 30px;
+         margin-top: -110px;
+      }
+
+   }
 }
+.section6{
+   .dots{
+      margin-left: 270px;
+      margin-right: 270px;
+   }
+   .professions{
+         margin-right: 280px;
+         margin-left: 280px;      
+   }
 }
+.section3{
+   .section3left{
+      margin-left: -30px;
+   }
+}
+
+}
+
+@media only screen and (max-width: 795px){
+   .section5{
+      .circletext{
+         p{
+            display: none;
+         }
+         h3{
+            margin-top: 350px;
+         }
+         .circletext1{
+            h3{
+               margin-top: 20px;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and(max-width: 750px){
+   .section2{
+      .left{
+         .expertise{
+            p{
+               display: none;
+            }
+         }
+      }
+   }
+   .cover{
+      .flex{
+         nav{
+            ul{
+               li{
+                  margin-left: 28px;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media only screen and(max-width: 710px){
+   .section2{
+      button{
+         transform: scale(0.8);
+         margin-left: 50px;
+      }
+      .left{
+         margin-right: -80px;
+      }
+   }
+   .section6{
+      .professions{
+         margin-left: 260px;
+      }
+   }
+   .section7{
+   padding-left: 30px;
+   }
+}
+
+@media only screen and (max-width: 695px){
+   .section5{
+      .circletext{
+         .circletext1{
+            margin-left: 180px;
+         }
+         .circletext2{
+            margin-right: 180px;
+            margin-top: -100px;
+         }
+         .circletext3{
+            margin-left: 180px;
+            
+         }
+         .circletext4{
+            margin-right: 180px;
+            
+         }
+      }
+   }
+   .section6{
+      .dots{
+         margin-left: 190px;
+         margin-right: 190px;
+      }
+      .professions{
+         display: none;
+      }
+   }
+   .section7{
+      .line{
+         width: 600px;
+      }
+   }
+}
+
+@media only screen and(max-width: 640px){
+   .section3left{
+      background-size: 400px;
+   }
+   .section7{
+      .d-inline-block{
+        
+         transform: scale(0.8);
+      }
+   }
+   .cover{
+      .flex{
+         nav{
+            ul{
+               li{
+                  margin-left: 18px;
+               }
+            }
+         }
+      }
+   }
+.section2{
+   .left{
+      margin-right: -213px;
+   }
+}
+
+}
+
+//600
+
+}
+
+}
+
    

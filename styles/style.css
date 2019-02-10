@@ -771,3 +771,97 @@ body {
       font-size: 12px; }
     body .main .section3right {
       width: 250px; } }
+  @media only screen and (max-width: 838px) {
+    body .main .coreservices .core-flex h3 {
+      font-size: 16px; }
+    body .main .section6 .professions h3 {
+      font-size: 12px; }
+    body .main .section7 .lastleft .lastflex .lasttwo .contact p {
+      font-size: 12px; }
+    body .main .section2 button {
+      margin-top: 230px; }
+    body .main .section2 .right img {
+      float: right;
+      width: 180px; }
+    body .main .section2 .left .two {
+      display: block; }
+      body .main .section2 .left .two .icon {
+        margin-right: 258px; }
+        body .main .section2 .left .two .icon img {
+          margin-top: -13px; }
+        body .main .section2 .left .two .icon p {
+          display: none; }
+    body .main .cover .flex nav ul li {
+      margin-left: 45px; }
+    body .main .section5 .circles .circletext1 {
+      margin-left: 30px; }
+    body .main .section5 .circles .circletext2 {
+      margin-right: 30px;
+      margin-top: -40px; }
+    body .main .section5 .circles .circletext3 {
+      margin-left: 30px;
+      margin-top: -110px; }
+    body .main .section5 .circles .circletext4 {
+      margin-right: 30px;
+      margin-top: -110px; }
+    body .main .section6 .dots {
+      margin-left: 270px;
+      margin-right: 270px; }
+    body .main .section6 .professions {
+      margin-right: 280px;
+      margin-left: 280px; }
+    body .main .section3 .section3left {
+      margin-left: -30px; } }
+  @media only screen and (max-width: 795px) {
+    body .main .section5 .circletext p {
+      display: none; }
+    body .main .section5 .circletext h3 {
+      margin-top: 350px; }
+    body .main .section5 .circletext .circletext1 h3 {
+      margin-top: 20px; } }
+  @media only screen and (max-width: 750px) {
+    body .main .section2 .left .expertise p {
+      display: none; }
+    body .main .cover .flex nav ul li {
+      margin-left: 28px; } }
+  @media only screen and (max-width: 710px) {
+    body .main .section2 button {
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8);
+      margin-left: 50px; }
+    body .main .section2 .left {
+      margin-right: -80px; }
+    body .main .section6 .professions {
+      margin-left: 260px; }
+    body .main .section7 {
+      padding-left: 30px; } }
+  @media only screen and (max-width: 695px) {
+    body .main .section5 .circletext .circletext1 {
+      margin-left: 180px; }
+    body .main .section5 .circletext .circletext2 {
+      margin-right: 180px;
+      margin-top: -100px; }
+    body .main .section5 .circletext .circletext3 {
+      margin-left: 180px; }
+    body .main .section5 .circletext .circletext4 {
+      margin-right: 180px; }
+    body .main .section6 .dots {
+      margin-left: 190px;
+      margin-right: 190px; }
+    body .main .section6 .professions {
+      display: none; }
+    body .main .section7 .line {
+      width: 600px; } }
+  @media only screen and (max-width: 640px) {
+    body .main .section3left {
+      -webkit-background-size: 400px 400px;
+      background-size: 400px; }
+    body .main .section7 .d-inline-block {
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8); }
+    body .main .cover .flex nav ul li {
+      margin-left: 18px; }
+    body .main .section2 .left {
+      margin-right: -213px; } }
