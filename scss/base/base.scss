@@ -428,27 +428,19 @@ overflow: hidden;
          width: 219px;
          background-color: black;
          border-radius: 50%;
-         display: inline-block;
        }
-   }
-   .professions{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-left: 350px;
-       margin-right: 364px;
-       margin-bottom: 70px;
-      //  .social-media:nth-child(3){
-      //     margin-left:22px;
-      //   }
-      .social-media3{
-         margin-left:10px;
+       .social-media{
+        margin-left:50px;
       }
+      .social-media3{
+         margin-left:60px;
+       }
       h3{
          font-size: 14px;
          font-family: $font2;
          color: black;
          text-align: center;
+         margin-top: 10px;
       }
       p{
          text-align: center;
@@ -458,11 +450,39 @@ overflow: hidden;
          margin-top: -28px;
       }
    }
+   // .professions{
+   //    display: flex;
+   //    justify-content: space-between;
+   //    align-items: center;
+   //    margin-left: 350px;
+   //     margin-right: 364px;
+   //     margin-bottom: 70px;
+   //    //  .social-media:nth-child(3){
+   //    //     margin-left:22px;
+   //    //   }
+   //    // .social-media3{
+   //    //    margin-left:10px;
+   //    // }
+   //    // h3{
+   //    //    font-size: 14px;
+   //    //    font-family: $font2;
+   //    //    color: black;
+   //    //    text-align: center;
+   //    // }
+   //    // p{
+   //    //    text-align: center;
+   //    //    color: #9b9b9b;
+   //    //    font-size: 12px;
+   //    //    font-family: $font3;
+   //    //    margin-top: -28px;
+   //    // }
+   // }
    .grey-text{
          text-align: center;
          color: #9b9b9b;
          font-family: $font3;
          font-size: 14px;
+         margin-top: 130px;
          padding-bottom: 105px;
    }
    }
@@ -611,7 +631,7 @@ form{
    }
    .section6{
       .dots{
-         margin-left: 250px;
+         margin-left: 235px;
       }
    }
 
@@ -619,6 +639,11 @@ form{
 
 
 @media only screen and (max-width: 1070px) {
+   .section6{
+      .dots{
+         margin-left: 190px;
+      }
+   }
    .section3right{
       width: 450px;
    }
@@ -631,16 +656,15 @@ form{
       }
    }
 
-.section6{
-   .professions{
-      margin-right: 323px;
-      margin-left: 315px;
-   }
-}
 
 }
 
 @media only screen and (max-width: 1038px) {
+   .section6{
+      .dots{
+         margin-left: 160px;
+      }
+   }
    .section2{
       height: 780px;
       .left{
@@ -656,6 +680,11 @@ form{
 }
 
 @media only screen and (max-width: 965px){
+   .section6{
+      .dots{
+         margin-left: 130px;
+      }
+   }
    .section3right{
       width: 350px;
    }
@@ -664,6 +693,11 @@ form{
    }
 }
 @media only screen and (max-width: 920px){
+   .section6{
+      .dots{
+         margin-left: 140px;
+      }
+   }
    .flex{
       margin-left: -120px;
    }
@@ -682,9 +716,14 @@ form{
 }
 
 @media only screen and (max-width: 893px){
-   .Name{
-      img{
-         display: none;
+   // .Name{
+   //    img{
+   //       display: none;
+   //    }
+   // }
+   .section6{
+      .dots{
+         margin-left: 120px;
       }
    }
    .section5{
@@ -736,13 +775,7 @@ form{
          }
       }
    }
-.section6{
-   .professions{
-      h3{
-         font-size: 12px;
-      }
-   }
-}
+
 .section7{
    .lastleft{
       .lastflex{
@@ -817,12 +850,7 @@ form{
 }
 .section6{
    .dots{
-      margin-left: 270px;
-      margin-right: 270px;
-   }
-   .professions{
-         margin-right: 280px;
-         margin-left: 280px;      
+      margin-left: 100px;
    }
 }
 .section3{
@@ -834,6 +862,11 @@ form{
 }
 
 @media only screen and (max-width: 795px){
+   .section6{
+      .dots{
+         margin-left: 80px;
+      }
+   }
    .section5{
       .circletext{
          p{
@@ -852,6 +885,11 @@ form{
 }
 
 @media only screen and(max-width: 750px){
+   .section6{
+      .dots{
+         margin-left: 35px;
+      }
+   }
    .section2{
       .left{
          .expertise{
@@ -886,8 +924,8 @@ form{
       }
    }
    .section6{
-      .professions{
-         margin-left: 260px;
+      .dots{
+        transform: scale(0.85);
       }
    }
    .section7{
@@ -915,15 +953,7 @@ form{
          }
       }
    }
-   .section6{
-      .dots{
-         margin-left: 190px;
-         margin-right: 190px;
-      }
-      .professions{
-         display: none;
-      }
-   }
+   
    .section7{
       .line{
          width: 600px;
@@ -957,11 +987,20 @@ form{
       margin-right: -213px;
    }
 }
-
+.section6{
+   .dots{
+      margin-left: 5px;
+   }
+}
 }
 
 //600
 @media only screen and(max-width: 580px){
+   .section6{
+      .dots{
+         transform: scale(0.65);
+      }
+   }
    .cover{
       .flex{
          nav{
@@ -1039,12 +1078,7 @@ form{
       }
    }
 
-.section6{
-   .dots{
-      margin-left: 100px;
-      margin-right: 100px;
-   }
-}
+
 .section3left{
    background-size: 300px;
    margin-top: 30px;
@@ -1053,6 +1087,16 @@ form{
 }
 
 @media only screen and (max-width: 498px){
+   .section6{
+      .dots{
+        flex-direction: column;
+        margin-left: 50%;
+        margin-top: -170px;
+        .dot{
+           margin-bottom: 100px;
+        }
+      }
+   }
    .section7{
       form{
          margin-left: -20px;
@@ -1106,6 +1150,7 @@ form{
 }
 //
 @media only screen and(max-width: 400px){
+   
    .section3{
       .section3left{
          background: none;
