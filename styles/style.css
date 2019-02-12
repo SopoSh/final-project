@@ -58,8 +58,7 @@ body .main {
 
 body .main .cover {
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed; }
+  background-position: center; }
 
 body .main .cover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../styles/img/dreams.bmp");
