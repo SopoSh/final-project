@@ -207,6 +207,9 @@ body .main .cover .line, body .main .coreservices .line, body .main .section5 .l
     -webkit-transform: scale(1);
     transform: scale(1); } }
 
+body, html {
+  overflow-x: hidden; }
+
 body {
   margin-top: -12px; }
   body .main .cover .flex {

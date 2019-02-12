@@ -3,12 +3,13 @@
 @import '../module/mixins.scss';
 @import '../module/functions.scss';
 
+body, html { overflow-x:hidden; }
 html{
    @extend %smooth;
+   
 }
 //header
 body{
-
    //max-width: $size02;
    margin-top: $size07;
 .main{
@@ -1032,7 +1033,7 @@ form{
 }
 
 
-}
+} 
 
 @media only screen and(max-width: 550px){
    .lastflex{
