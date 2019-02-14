@@ -639,6 +639,13 @@ form{
 }
 
 
+
+@media (min-width:1070px) and (max-width:1400px){
+   .cover{
+      background-attachment: fixed;
+   }
+}
+
 @media only screen and (max-width: 1070px) {
    .section6{
       .dots{

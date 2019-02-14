@@ -717,6 +717,9 @@ body {
         width: 890px; }
     body .main .section6 .dots {
       margin-left: 235px; } }
+  @media (min-width: 1070px) and (max-width: 1400px) {
+    body .main .cover {
+      background-attachment: fixed; } }
   @media only screen and (max-width: 1070px) {
     body .main .section6 .dots {
       margin-left: 190px; }
