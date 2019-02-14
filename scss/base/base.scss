@@ -429,7 +429,12 @@ overflow: hidden;
          width: 219px;
          background-color: black;
          border-radius: 50%;
-       }
+      .Name{
+         img:hover{
+            transform: scale(1.1);
+         }
+      }
+      }
        .social-media{
         margin-left:50px;
       }
@@ -451,6 +456,7 @@ overflow: hidden;
          margin-top: -28px;
       }
    }
+
    // .professions{
    //    display: flex;
    //    justify-content: space-between;
@@ -539,7 +545,7 @@ form{
    margin-right: 227px;
 }
 }
-.d-inline-block {
+
    button{
    margin-left:383px;
    cursor: pointer;
@@ -553,8 +559,16 @@ form{
   padding: 21px;
   background-color: #44cbff;
   margin-top: 21px;
- }
-}
+   }
+ button:active {
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+ } 
+   button:hover{
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+     transform: scale(1.2);
+   }
+
 .line{
    width: 1000px;
    height: 1px;
@@ -724,11 +738,6 @@ form{
 }
 
 @media only screen and (max-width: 893px){
-   // .Name{
-   //    img{
-   //       display: none;
-   //    }
-   // }
    .section6{
       .dots{
          margin-left: 120px;
@@ -974,7 +983,7 @@ form{
       background-size: 400px;
    }
    .section7{
-      .d-inline-block{
+      button {
         
          transform: scale(0.8);
       }
@@ -1217,8 +1226,10 @@ form{
       }
    }
 }
-.d-inline-block{
-   margin-left: -250px;
+.section7{
+   button{
+      margin-left: -250px;
+   }
 }
 .coreservices{
    .middle{

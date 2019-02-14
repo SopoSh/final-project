@@ -109,17 +109,17 @@
             <script>
             $(document).ready(function() {
     
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
+             /* Every time the window is scrolled ... */
+             $(window).scroll( function(){
     
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
+              /* Check the location of each desired element */
+             $('.hideme').each( function(i){
             
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
+             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
+                /* If the object is completely visible in the window, fade it it */
+             if( bottom_of_window > bottom_of_object ){
                 
                 $(this).animate({'opacity':'1'},500);
                     
@@ -276,12 +276,12 @@
                 <img  class="tile" src="styles/img/Image-5.png" alt="">
                 <img   class="tile" src="styles/img/Image-6.png" alt="">
             </div>
-           <script>
-           ScrollReveal().reveal('.tile', {
-	        interval: 300,
-	        reset: true
-});
-           </script>
+                 <script>
+                     ScrollReveal().reveal('.tile', {
+	                     interval: 300,
+	                         reset: true
+                                });
+                          </script>
         </section>
 
         
@@ -486,10 +486,16 @@
                 <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Your Message*" style="height:167px">
               </div>
             </div>
-            <span class="d-inline-block" data-toggle="popover" >
-                 <button class="btn btn-primary" style="pointer-events: none;" type="button" id="btn">SEND MESSAGE</button>
-                </span>
+                 <button class="btn btn-outline-secondary"  type="button" id="btn">SEND MESSAGE</button>
 
+                 <script>
+                    document.getElementById("btn").onclick = function() {myFunction()};
+                    
+                    function myFunction() {
+                    //   document.getElementById("btn").innerHTML = "LEARN MORE...";
+                        alert("Enter Value");
+                    }
+                    </script>
 
           </form>
           <div class="line">
